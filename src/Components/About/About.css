@@ -1,0 +1,67 @@
+.about {
+  background: #00000017;
+  display: flex;
+  flex-direction: column;
+}
+.about-me {
+  width: 40rem;
+  max-width: 80%;
+  /* border: 1px solid black; */
+  height: auto;
+  margin: 55px auto;
+  background: white;
+}
+.about-me-head {
+  background-color: #020625;
+  height: 16rem;
+  text-align: center;
+}
+.about-me-head img {
+  height: 8rem;
+  padding: 8px;
+  margin: 15px;
+  border: 1.5px solid white;
+  border-radius: 50%;
+}
+.about-me-body p {
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 30px;
+  padding: 35px;
+  margin: 0;
+}
+.social-icons ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.social-icons ul li {
+  list-style: none;
+  padding: 4px 25px;
+  color: white;
+  font-size: 35px;
+}
+.resume {
+  text-align: center;
+  font-size: 20px;
+  color: #0a0357;
+  padding: 10px 0px;
+  font-weight: 300;
+}
+.resume ion-icon {
+  position: relative;
+  top: 2px;
+  padding-right: 2px;
+}
+.resume a {
+  text-decoration: none;
+}
+
+.skills {
+  width: 40rem;
+  max-width: 80%;
+  border: 1px solid black;
+  height: 33rem;
+  margin: 55px auto;
+}

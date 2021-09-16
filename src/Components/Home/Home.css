@@ -1,0 +1,19 @@
+.homeContent {
+  background-color: #00000017;
+  height: 78vh;
+}
+.welcome {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  width: 22rem;
+  height: 20rem;
+  background-color: white;
+  border: solid rgb(0, 0, 0) 1px;
+}
+.welcome-head {
+  height: 3.5rem;
+  background-color: #020625;
+  margin-bottom: 30px;
+}
