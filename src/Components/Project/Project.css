@@ -1,0 +1,16 @@
+.project {
+  background: #00000017;
+}
+.project ion-icon {
+  position: relative;
+  top: 20%;
+  left: 1.3vw;
+  font-size: 25px;
+}
+h3 a {
+  text-decoration: none;
+  color: #212529;
+}
+h3 a:hover {
+  color: #8a2af9;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Header from "./Components/Header/Header";
@@ -6,6 +7,7 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Project from "./Components/Project/Project";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <Router>
@@ -26,6 +28,7 @@ function App() {
             <Project />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

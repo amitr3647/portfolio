@@ -1,5 +1,6 @@
 import "./About.css";
 import logo from "../../Assets/image.svg";
+import Skills from "../Skills/Skills";
 export default function About() {
   return (
     <div className="about">
@@ -51,7 +52,7 @@ export default function About() {
           </a>
         </div>
       </div>
-      <div className="skills"></div>
+      <Skills />
     </div>
   );
 }

@@ -1,0 +1,66 @@
+.skills {
+  width: 40rem;
+  max-width: 80%;
+
+  /* height: 33rem; */
+  margin: 55px auto;
+  background-color: #fff;
+}
+.skills-head {
+  background-color: #020625;
+  height: 3.5rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills-head h1 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.skills-body {
+  display: flex;
+  flex-direction: column;
+}
+.platform {
+  width: 100%;
+  display: flex;
+}
+.row {
+  padding: 22px 0px;
+}
+.col-left {
+  display: flex;
+}
+.col-left h2 {
+  font-size: 22px;
+}
+.col-left ion-icon {
+  font-size: 20px;
+  padding: 0 15px;
+}
+.col {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0 0 0 37px;
+}
+.col ion-icon {
+  font-size: 22px;
+}
+.col h2 {
+  font-size: 22px;
+  padding: 0 10px;
+  margin: 0;
+}
+.btn {
+  margin: 0 8px;
+}
+hr {
+  height: 1px;
+  width: 95%;
+  margin: 0 auto;
+}
