@@ -15,18 +15,17 @@ function App() {
         <Header />
 
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/project">
-            <Project />
-          </Route>
+          <Route exact path="/" component={Home} />
+          {/* <Home /> */}
+
+          <Route path="/about" component={About} />
+          {/* <About /> */}
+
+          <Route path="/contact" component={Contact} />
+          {/* <Contact /> */}
+
+          <Route path="/project" component={Project} />
+          {/* <Project /> */}
         </Switch>
         <Footer />
       </div>
