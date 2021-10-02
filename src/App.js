@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
@@ -10,26 +10,24 @@ import Project from "./Components/Project/Project";
 import Footer from "./Components/Footer/Footer";
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header />
+    <div className="App">
+      <Header />
 
-        <Switch>
-          <Route exact path="/" component={Home} />
-          {/* <Home /> */}
+      <Switch>
+        <Route exact path="/" component={Home} />
+        {/* <Home /> */}
 
-          <Route path="/about" component={About} />
-          {/* <About /> */}
+        <Route path="/about" component={About} />
+        {/* <About /> */}
 
-          <Route path="/contact" component={Contact} />
-          {/* <Contact /> */}
+        <Route path="/contact" component={Contact} />
+        {/* <Contact /> */}
 
-          <Route path="/project" component={Project} />
-          {/* <Project /> */}
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
+        <Route path="/project" component={Project} />
+        {/* <Project /> */}
+      </Switch>
+      <Footer />
+    </div>
   );
 }
 
