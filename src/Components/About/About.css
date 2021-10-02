@@ -23,11 +23,13 @@
   border: 1.5px solid white;
   border-radius: 50%;
 }
-.about-me-body p {
+p {
   font-size: 18px;
   font-family: "Roboto";
   font-weight: 300;
   line-height: 30px;
+}
+.about-me-body p {
   padding: 35px;
   margin: 0;
 }
@@ -57,5 +59,3 @@
 .resume a {
   text-decoration: none;
 }
-
-
