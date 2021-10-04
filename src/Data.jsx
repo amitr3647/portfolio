@@ -75,3 +75,23 @@ export const projects = [
     url: "https://expensetracker3647.netlify.app/",
   },
 ];
+export const academics = [
+  {
+    institute: "National Institute of Technology, Warangal",
+    education: "Master of Technology(MTech)",
+    location: "Warangal,Telangana",
+    date: "2021-2023",
+  },
+  {
+    institute: "Birla Institute of Technology, Mesra",
+    education: "Bachelors of Engineering(Mechanical Engineering)",
+    location: "Mesra,Ranchi",
+    date: "2015-2019",
+  },
+  {
+    institute: "Loyola High School",
+    education: "Secondary School",
+    location: "Patna,Bihar",
+    date: "2012-2014",
+  },
+];

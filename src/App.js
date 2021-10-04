@@ -8,6 +8,9 @@ import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Project from "./Components/Project/Project";
 import Footer from "./Components/Footer/Footer";
+import Academics from "./Components/Academics/Academics";
+import "./App.css";
+import Blog from "./Components/Blog/Blog";
 function App() {
   return (
     <div className="App">
@@ -17,6 +20,7 @@ function App() {
         <Route exact path="/" component={Home} />
         {/* <Home /> */}
 
+        <Route path="/academics" component={Academics} />
         <Route path="/about" component={About} />
         {/* <About /> */}
 
@@ -25,6 +29,7 @@ function App() {
 
         <Route path="/project" component={Project} />
         {/* <Project /> */}
+        <Route path="/blog" component={Blog} />
       </Switch>
       <Footer />
     </div>

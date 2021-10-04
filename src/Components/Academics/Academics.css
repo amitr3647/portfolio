@@ -1,0 +1,12 @@
+.academics {
+  background: #00000017;
+}
+.academics ion-icon {
+  position: relative;
+  top: 20%;
+  left: 1.3vw;
+  font-size: 25px;
+}
+.academics p {
+  font-weight: 400;
+}

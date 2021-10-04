@@ -8,15 +8,15 @@ export default function Header() {
         </a>
         <ul>
           <li>
-            <a href="/">
-              <ion-icon name="home-outline"></ion-icon>
-              Home
-            </a>
-          </li>
-          <li>
             <a href="/about">
               <ion-icon name="man-outline"></ion-icon>
               About
+            </a>
+          </li>
+          <li>
+            <a href="/academics">
+              <ion-icon name="school-outline"></ion-icon>
+              Academics
             </a>
           </li>
           <li>
