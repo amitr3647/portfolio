@@ -66,4 +66,12 @@ export const projects = [
     date: "aug-2021",
     url: "https://breakingbad3647.netlify.app/",
   },
+  {
+    topic: "Expense Tracker",
+    technology: ["ReactJS"],
+    desc: "A web-app which keeps a check on your expenses.",
+    date: "aug-2021",
+
+    url: "https://expensetracker3647.netlify.app/",
+  },
 ];

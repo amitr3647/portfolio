@@ -1,6 +1,7 @@
 import "./About.css";
 import logo from "../../Assets/image.svg";
 import Skills from "../Skills/Skills";
+import Resume from "../../Assets/Amit_Kumar_Resume.pdf";
 export default function About() {
   return (
     <div className="about">
@@ -46,7 +47,7 @@ export default function About() {
         </div>
         <hr style={{ borderTop: "1px dashed ", borderTopColor: "gray" }}></hr>
         <div className="resume">
-          <a href="#" target="_blank">
+          <a href={Resume} target="_blank">
             <ion-icon name="newspaper-outline"></ion-icon>
             Resume
           </a>
