@@ -53,6 +53,13 @@ export const skillsets = [
 ];
 export const projects = [
   {
+    topic: "Instagram-clone",
+    technology: ["ReactJS", "CSS", "Firebase"],
+    desc: "An instagram look a like webapp which allows you to add your pictures and also see or comment on your friends pictures.It also give you the option to sign up and then sign in",
+    date: "oct-2021",
+    url: "https://instagramclone3647.netlify.app/",
+  },
+  {
     topic: "Todo",
     technology: ["ReactJS", "CSS"],
     desc: "A web-app which allows you to arrange your day-to-day task.It has been made using ReactJS",
@@ -68,7 +75,7 @@ export const projects = [
   },
   {
     topic: "Expense Tracker",
-    technology: ["ReactJS"],
+    technology: ["ReactJS", "CSS"],
     desc: "A web-app which keeps a check on your expenses.",
     date: "aug-2021",
 
